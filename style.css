@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(141deg,rgba(143, 212, 237, 1) 0%, rgba(220, 147, 244, 1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    background: #2b2b2b;
+    height: 70px;
+    color: white;
+}
+
+nav {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    height: 70px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    width: 1300px;
+    margin: 50px auto;
+}
+
+.card-list {
+    margin-top: 30px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, 350px);
+    justify-content: center;
+}
+
+.card {
+    background: #2b2b2bef;
+    height: 300px;
+    padding: 10px 25px;
+    -webkit-box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 0.11);
+    box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 0.20);
+    color: rgba(255, 255, 255, 0.822);
+}
+.lesson-list {
+    text-align: left;
+    margin-top: 20px;
+}
+.lesson-list div p {
+    display: inline;
+}
+.empty-lesson {
+    color: rgba(255, 255, 255, 0.411);
+}
+#langChange {
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
